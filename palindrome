@@ -1,4 +1,4 @@
-let string="racecare"
+let string="naman"
 
 function reverse(string){
    let bag="";
@@ -9,8 +9,10 @@ function reverse(string){
 }
 let reversed=reverse("naman");
 
+
+
 if(string==reversed){
    console.log("Palindrome");
 }else{
-   console.log("Not a Palindrome");
+   console.log("na");
 }

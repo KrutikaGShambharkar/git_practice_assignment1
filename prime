@@ -1,14 +1,9 @@
 function checkPrime(num){
-   for (let i=0; i<=num; i++){
+   for (let i=i; i<=num; i++){
        if (num%i){
           return true;
        }
    }
    return false;
-}
-if (ans=true) {
-  console.log("Palindrome")
-} else {
-  console.log("Not a Palindrome")
 }
 checkPrime(13);
